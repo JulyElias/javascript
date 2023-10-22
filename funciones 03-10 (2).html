@@ -3,22 +3,29 @@
 <script type="text/javascript">
 <!--
 function hypotenuse(a, b) {
-function square(x) { return x*x; }
-return Math.sqrt(square(a) + square(b));
+ function square(x) { return x*x; }
+
+ return Math.sqrt(square(a) + square(b));
 }
+
 function secondFunction(){
-var result;
-result = hypotenuse(1,2);
-document.write ( result );
+ var result;
+ result = hypotenuse(4,7); 
+ document.write(result); 
 }
 //-->
 </script>
+<style>
+ body {
+background-color: #F5F5DC;
+}
+</style>
 </head>
 <body>
-<p>Click the following button to call the function</p>
+<p>Calcular la Hipotenusa</p>
 <form>
-<input type="button" onclick="secondFunction()" value="Call Function">
+<input type="button" onclick="secondFunction()" value="Resultado">
 </form>
-<p>Use different parameters inside the function and then try...</p>
+  <br> <a href="https://maxicorrosa.github.io/ejercicio3casassss/index2.html">volver</a>
 </body>
 </html>
